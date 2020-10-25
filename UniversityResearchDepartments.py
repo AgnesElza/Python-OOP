@@ -52,8 +52,8 @@ if __name__ == '__main__':
     else:
         for i in retlist:
             print("***Search results in the given topic***")
-            print(i.id)
-            print(i.topic)
-            print(i.author)
-            print(i.dep)
+            print("ID:",i.id)
+            print("Topic",i.topic)
+            print("Author",i.author)
+            print("Department",i.dep)
     print("Department with maximum number of researches:",u.MaxResearchDepartment())
